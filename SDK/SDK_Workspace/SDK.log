@@ -137,3 +137,46 @@
 09:39:04.953 INFO  - Refreshed build settings on project hello_world 
 10:33:44.745 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
 10:36:10.473 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+09:48:33.127 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+09:48:33.190 ERROR - Unable to read in MSS file C:\materija\RA47-2014\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:48:47.602 ERROR - Unable to read in MSS file C:\materija\RA47-2014\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:48:47.602 ERROR - Unable to read in MSS file C:\materija\RA47-2014\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:48:47.634 WARN  - Unable to determine location of documentation for OS . 
+09:48:47.634 ERROR - Unable to read in MSS file C:\materija\RA47-2014\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:48:47.649 ERROR - Unable to read in MSS file C:\materija\RA47-2014\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:48:51.954 ERROR - Unable to read in MSS file C:\materija\RA47-2014\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:50:12.574 INFO  - FPGA configured successfully with bitstream "C:/materija/RA47-2014/LPRS2/lab5/SDK/SDK_Workspace/basic_system_hw_platform/download.bit" 
+09:50:13.416 ERROR - Unable to read in MSS file C:\materija\RA47-2014\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:50:13.946 ERROR - Unable to read in MSS file C:\materija\RA47-2014\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:50:13.962 ERROR - Unable to read in MSS file C:\materija\RA47-2014\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:50:13.962 ERROR - Unable to read in MSS file C:\materija\RA47-2014\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+09:57:13.688 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+09:57:13.688 ERROR - Timeout occured while waiting to get reply for command "targets 0" 
+09:57:13.688 ERROR - Unexpected error while launching program. java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.setResetOnRun(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:04:27.389 ERROR - Unexpected error while launching program. java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(Unknown Source)
+
+10:25:29.256 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:25:59.508 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:28:01.400 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:28:32.882 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+10:28:32.903 ERROR - Unexpected error while fetching XMD's response:  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+10:28:32.903 ERROR - Zero sized response read from XMD. This indicates a communication error or a programming error. 
+08:41:11.472 INFO  - Restoring local repository preferences: 
+		 D:\work\lprs2\2013_2014\Resene_vezbe\lab56\basic_system 
+08:41:11.566 ERROR - Unable to read in MSS file C:\materija\RA47-2014\LPRS2\lab5\SDK\SDK_Workspace\hello_world_bsp\system.mss. 
+08:46:49.859 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+08:47:22.620 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+08:48:05.598 INFO  - microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
